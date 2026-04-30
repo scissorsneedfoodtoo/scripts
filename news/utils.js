@@ -31,6 +31,11 @@ const keys = {
     key: process.env.ES_NEWS_API_ADMIN_KEY,
     version: process.env.ES_NEWS_API_VERSION || "v2",
   },
+  ko: {
+    url: process.env.KO_NEWS_API_URL,
+    key: process.env.KO_NEWS_API_ADMIN_KEY,
+    version: process.env.KO_NEWS_API_VERSION || "v3.42",
+  },
   getter: {
     url: process.env.GETTER_NEWS_API_URL,
     key: process.env.GETTER_NEWS_API_ADMIN_KEY,
